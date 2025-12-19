@@ -1,5 +1,7 @@
 import csv
 
+#Комментарий для преподавателя: не знаю стоит ли добавить csv файл в гитигнор, но не стал добавлять на всякий случай.
+
 
 def read_csv(path):
     with open(path, encoding="utf-8", newline="") as f:
