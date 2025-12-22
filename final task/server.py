@@ -1,6 +1,6 @@
 '''
 Ну в целом тут тоже все просто, не стал как-то сильно тут импровизировать. 
-Команды для запуска: python server.ru
+Команды для запуска: python server.py
 Можно создать задачу через запрос к серваку, например:
 Invoke-RestMethod -Method Post -Uri "http://127.0.0.1:8000/tasks" `
   -ContentType "application/json" `
